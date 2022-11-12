@@ -155,8 +155,8 @@ body {
         font-size: 13px;
     }
     .stars-container-card > * {
-        min-width: 30px;
-        min-height: 30px;
+        min-width: 35px;
+        min-height: 35px;
         font-size: 10px;
     }
     .btn-card {
