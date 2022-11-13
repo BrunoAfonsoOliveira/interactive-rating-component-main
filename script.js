@@ -26,9 +26,11 @@ window.onload = () => {
 
     //Goes to the 'thanks' display
     btn.addEventListener('click', () => { 
-        ratingThanks.innerText = `You selected ${activeScoreValue} out of 5`
-        ratingCard.style.display = 'none'
-        thanksCard.style.display = 'flex'
+        if (activeScoreValue) {
+            ratingThanks.innerText = `You selected ${activeScoreValue} out of 5`
+            ratingCard.style.display = 'none'
+            thanksCard.style.display = 'flex'
+        }
     })
 
     //Check the active score value
